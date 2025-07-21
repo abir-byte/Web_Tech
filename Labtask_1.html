@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donation Form</title>
+</head>
+<body>
+      <Header>
+        <h3 style="color:blue;">Donor Information</h3>
+      </Header>
+<form>
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname"><br>
+  <label for="company">Company:</label><br>
+  <input type="text" id="company" name="company"><br>
+  <label for="add1">Address 1:</label><br>
+  <input type="text" id="add1" name="add1"><br>
+  <label for="add2">Address 2:</label><br>
+  <input type="text" id="add2" name="add2"><br>
+  <label for="city">City:</label><br>
+  <input type="text" id="city" name="city"><br>
+  <label for="state">State:</label><br>
+   <select id="state"><br>
+                        <option value="">Select a state</option>
+                        <option>Dhaka</option>
+                        <option>Rajshahi</option>
+                        <option>Sylhet</option>
+                        <option>Mymensingh</option>
+                        <option>Rangpur</option>
+                        <option>Chittagong</option>
+                        <option>Khulna</option>
+   </select><br>
+  <label for="zip">Zip Code:</label><br>
+  <input type="text" id="zip" name="zip"><br> 
+  <label for="country">Country:</label><br>
+  <select id="country">
+                        <option value="">Select a country</option>
+                        <option>Bangladesh</option>
+                        <option>Australia</option>
+                        <option>India</option>
+                        <option>Pakistan</option>
+                        <option>England</option>
+                        <option>Japan</option>
+                        <option>Afganisthan</option>
+   </select><br>
+   
+    <label for="phone">Phone:</label><br>
+    <input type="tel" id="phone" name="phone"><br>
+
+    <label for="fax">Fax:</label><br>
+    <input type="text" id="fax" name="fax"><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email"><br>
+
+    <label>Donation Amount:</label><br>
+    <input type="radio" name="amount" value="none"> None
+    <input type="radio" name="amount" value="50"> $50
+    <input type="radio" name="amount" value="75"> $75
+    <input type="radio" name="amount" value="100"> $100
+    <input type="radio" name="amount" value="250"> $250
+    <input type="radio" name="amount" value="other"> Other<br>
+
+   <label for="otherAmount">Other Amount $:</label><br>
+    <input type="text" id="otherAmount" name="otherAmount"><br>
+
+    <input type="checkbox" id="recurring" name="recurring">
+    <label for="recurring">I am interested in giving on a regular basis.</label><br>
+
+    <label for="monthly">Monthly Credit Card :</label>
+    <input type="text" id="monthly" name="monthly">
+
+    <label for="months">For (Months):</label>
+    <input type="text" id="months" name="months"><br><br>
+    <h3 style="color:blue;">Honorarium and Memorial Donation Information</h3>
+
+    <label>I would like to make this donation:</label><br>
+    <input type="radio" name="honor_type" value="honor"> To Honor
+    <input type="radio" name="honor_type" value="memory"> In Memory of<br>
+
+    <label for="honor_name">Name:</label><br>
+    <input type="text" id="honor_name" name="honor_name"><br>
+
+    <label for="ack_name">Acknowledge Donation to:</label><br>
+    <input type="text" id="ack_name" name="ack_name"><br>
+    <label for="ack_address">Address:</label><br>
+    <input type="text" id="ack_address" name="ack_address"><br>
+
+    <label for="ack_city">City:</label><br>
+    <input type="text" id="ack_city" name="ack_city"><br>
+
+    <label for="ack_state">State:</label><br>
+    <select id="ack_state" name="ack_state">
+      <option value="">Select a state</option>
+      <option>Dhaka</option>
+      <option>Rajshahi</option>
+      <option>Sylhet</option>
+    </select><br>
+     <label for="ack_zip">Zip:</label><br>
+    <input type="text" id="ack_zip" name="ack_zip"><br><br>
+    <h3 style="color:blue;">Additional Information</h3>
+
+    <label for="pub_name">Name (for publication):</label><br>
+    <input type="text" id="pub_name" name="pub_name"><br>
+
+    <input type="checkbox" name="anonymous"> I would like my gift to remain anonymous.<br>
+    <input type="checkbox" name="employer"> My employer offers a matching gift program.<br>
+    <input type="checkbox" name="no_thanks"> Please do not mail a thank you letter.<br><br>
+    <label for="comments">Comments:</label><br>
+    <textarea id="comments" name="comments" rows="4" cols="40"></textarea><br><br>
+
+    <label>How may we contact you?</label><br>
+    <input type="checkbox" name="contact_email"> E-mail
+    <input type="checkbox" name="contact_postal"> Postal Mail
+    <input type="checkbox" name="contact_phone"> Telephone
+    <input type="checkbox" name="contact_fax"> Fax<br><br>
+     <label>Newsletter & Events by:</label><br>
+    <input type="checkbox" name="newsletter_email"> E-mail
+    <input type="checkbox" name="newsletter_postal"> Postal Mail<br><br>
+
+    <input type="checkbox" name="volunteer"> I would like information about volunteering.<br><br>
+
+    <input type="reset" value="Reset">
+    <input type="submit" value="Continue">
+
+</form>
+</body>
+</html>
